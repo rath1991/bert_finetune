@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sentimentanalysis:
+    image: sentimentanalysis
+    build:
+      context: .
+      dockerfile: ./Dockerfile
