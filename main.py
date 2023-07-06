@@ -29,7 +29,7 @@ if __name__ == '__main__':
     #----------------------------------------#
     BATCH_SIZE = 16
     MAX_LEN = 160
-    EPOCHS = 1
+    EPOCHS = 30
     LR = 2e-5
     MODEL_NAME = 'bert-base-cased'
     #-------------------------------------------#
